@@ -1,0 +1,167 @@
+#container, body {
+	margin: 0;
+	width: 100%;
+	background-color: #afafaf;
+}
+
+#navigation {
+	z-index: 500;
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(225,225,225);
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+}
+
+#navigation ul li {
+	font-family: Arial;
+	font-size: 24pt;
+	margin-top: 3%;
+	margin-right: 3%;
+	float: right; 
+}
+
+#imagecontainer  {
+	margin: 0;
+	display: block;
+}
+
+.introimages {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 120vh;
+	z-index: -10;
+}
+
+#btnContact {
+	cursor: pointer;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: rgba(0,111,81,1);
+	padding: 1%;
+	font-size: 24pt;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	right: 2%;
+	border: 1px solid black;
+}
+
+#firstpage {
+	margin: 0;
+}
+
+#secondpage {
+	width: 100%;
+	position: absolute;
+	height: 2100px;
+	float: left;
+}
+
+#navigation2 {
+	margin-top: 51.8%;
+	width: 100%;
+	background-color: rgba(31,31,31,1);
+	height: 150px;
+}
+
+#navigation2 ul {
+	list-style-type: none;
+}
+
+#navigation2 ul li {
+	margin-top: 1%;
+	padding: 2% 5%;
+	font-family: Arial;
+	font-size: 24pt;
+	float: left;
+	color: white; 
+}
+
+#navigation2 ul li:hover {
+	background-color: rgba(0,111,91,0.7);
+}
+
+#sidecaption {
+	font-family: Arial;
+	font-size: 32pt;
+	background-color: white;
+	width: 38%;
+	height: 500px;
+	margin: 5% 0% 0% 10%;
+	display: inline-block;
+	box-shadow: 0px 0px 50px 1px black;
+}
+
+#sidecaption p , #side2caption p {
+	padding-top: 13%;
+	text-align: left;
+	padding-left: 15%;
+}
+
+#side2caption {
+	font-family: Arial;
+	font-size: 32pt;
+	float: right;
+	width: 38%;
+	background-color: white;
+	margin-top: 5%;
+	margin-right: 13%;
+	height: 500px;
+	display: inline-block;
+	box-shadow: 0px 0px 50px 3px black;
+}
+
+#container3 {
+	width: 100%;
+	height: 900px;
+	background-color: rgba(30,0,50,1);
+	margin-top: 5%;
+}
+
+#selectcontainer1 {
+	width: 33.2%;
+	height: 900px;
+	display: inline-block;
+	float: left;
+}
+
+#selectcontainer2 {
+	width: 33.2%;
+	height: 900px;
+	display: inline-block;
+}
+
+#selectcontainer3 {
+	width: 33.2%;
+	height: 900px;
+	display: inline;
+}
+
+.selectcontainer p{
+	color: white;
+	margin-top: 20%;
+	margin-left: 20%;
+	font-family: Arial;
+	font-size: 32pt;
+}
+
+.selectcontainer:hover {
+	cursor: pointer;
+	box-shadow: 700px 0px 100px 1px rgba(225,225,225,0.2) inset;
+}
+
+#hidden1, #hidden2, #hidden3, #selectcontainer1text, #selectcontainer2text, #selectcontainer3text {
+	display: none;
+	z-index: 100;
+}
